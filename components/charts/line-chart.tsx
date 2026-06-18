@@ -5,7 +5,7 @@ import { formatCurrency } from '@/lib/data-formatter';
 export default function LineChart({ data }: { data: any[] }) {
   return (
     <div className="w-full h-[350px] bg-slate-800 p-6 rounded-xl border border-slate-700">
-      <h3 className="text-lg font-semibold text-white mb-4">일별 매출 추이</h3>
+      <h3 className="text-lg font-semibold text-white mb-4">비트코인 가격 추이 (KRW)</h3>
       <ResponsiveContainer width="100%" height="90%">
         <RechartsLine data={data}>
           <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
