@@ -46,7 +46,7 @@ export default async function DashboardPage() {
         {/* ✍️ 실시간 데이터 입력 폼 섹션 */}
         <div className="bg-slate-800 p-6 rounded-xl border border-slate-700 mb-8">
           <h2 className="text-lg font-semibold text-white mb-4">📊 신규 데이터 직접 입력하기</h2>
-          <form action={addMetricsAction} className="grid grid-cols-1 sm:grid-cols-4 gap-4 items-end">
+          <form action={async (formData) => { 'use server'; await addMetricsAction(formData); }} className="grid grid-cols-1 sm:grid-cols-4 gap-4 items-end">
             <div>
               <label className="block text-xs font-medium text-slate-400 mb-2">날짜 (예: 6/19)</label>
               <input 
