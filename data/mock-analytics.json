@@ -1,0 +1,9 @@
+[
+  { "date": "2026-06-12", "visitors": 1200, "revenue": 2400000, "conversionRate": 2.5 },
+  { "date": "2026-06-13", "visitors": 1450, "revenue": 3100000, "conversionRate": 2.8 },
+  { "date": "2026-06-14", "visitors": 1900, "revenue": 4500000, "conversionRate": 3.1 },
+  { "date": "2026-06-15", "visitors": 1100, "revenue": 2100000, "conversionRate": 2.3 },
+  { "date": "2026-06-16", "visitors": 1350, "revenue": 2900000, "conversionRate": 2.6 },
+  { "date": "2026-06-17", "visitors": 1600, "revenue": 3800000, "conversionRate": 2.9 },
+  { "date": "2026-06-18", "visitors": 1750, "revenue": 4200000, "conversionRate": 3.0 }
+]
